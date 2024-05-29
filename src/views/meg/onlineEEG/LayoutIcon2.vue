@@ -8,7 +8,7 @@ const changeIcon = () => {
 </script>
 
 <template>
-  <div>
+  <div class="iconStyle">
     <el-icon
       style="cursor: pointer; margin-top: 350px"
       size="20px"
@@ -18,3 +18,11 @@ const changeIcon = () => {
     </el-icon>
   </div>
 </template>
+
+<style lang="scss" scoped>
+.iconStyle {
+  background-color: #9ccdee;
+  height: 100%;
+  width: 100%;
+}
+</style>

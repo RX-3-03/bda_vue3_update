@@ -10,6 +10,7 @@
         <MySelectBox
           :options="options1"
           allow-clear
+          :width="180"
           v-model="selectedValue1"
           @change="onChange"
         />
@@ -17,6 +18,7 @@
         <MySelectBox
           :options="options2"
           allow-clear
+          :width="100"
           v-model="selectedValue2"
           @change="onChange"
         />

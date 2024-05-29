@@ -289,14 +289,14 @@ function onChange(value: string | number, label: string, index: number) {
           {{ option[label] }}
         </p>
       </div>
-      <div
+      <!-- <div
         v-show="showOptions && filterOptions && !filterOptions.length"
         key="2"
         class="m-empty-wrap"
         :style="`top: ${height + 4}px; width: ${width}px;`"
       >
         <Empty image="2" key="2" />
-      </div>
+      </div> -->
     </TransitionGroup>
   </div>
 </template>
